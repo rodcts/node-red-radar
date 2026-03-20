@@ -1,7 +1,7 @@
 services:
   node-red:
     build: . # Ele vai buildar sua imagem customizada
-    image: radar-automation:latest
+    image: radar-automation
     container_name: node-red-radar
     restart: always
     ports:

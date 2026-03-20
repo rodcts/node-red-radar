@@ -1,4 +1,4 @@
-FROM nodered/node-red:latest-22
+FROM nodered/node-red:latest-22 AS radar-automation
 
 # Copia o package.json para a raiz do Node-RED (/usr/src/node-red)
 # Assim, os módulos não serão apagados pelo volume montado em /data
